@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="number"]:focus,
+input[type="text"]:focus {
+  scroll-margin-top: 120px; /* Adjust this value to match your header height */
+}
